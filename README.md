@@ -14,7 +14,7 @@ Next is an overview of what this config has.
 
 
 # Coding
-* I do a lot of coding, and so, for the editor i use nixvim, a distribution of neovim capable of being completely configurable via **home-manager**, i tried not to put too many plugins, so its a basic configuration, has telescope to search files, lualine to display git information, treesitter for highlighting, Zen mode because i like the text being more centered on the screen, twilight to focus on one part of the text(goes well with zen mode) and some other small plugins, like css colors, gitsigns, etc. My focus area is backend development, for that reason i have python3, sqlite and postgresql.
+* I do a lot of coding, and so, for the editor i use nixvim, a distribution of neovim capable of being completely configurable via **home-manager**, i tried not to put too many plugins, so its a basic configuration, has telescope to search files, lualine to display git information, treesitter for highlighting, Zen mode because i like the text being more centered on the screen, twilight to focus on one part of the text(goes well with zen mode) and some other small plugins, like css colors, gitsigns, etc. My focus area is backend development, for that reason i have python3, sqlite and postgresql. About git, you have to put your own name and email to make it work.
 
 # Others
 
