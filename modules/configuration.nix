@@ -60,7 +60,6 @@
   # Browser
   programs.firefox.enable = true;
 
-  # environment.pathsToLink = [ "/share/applications" "/share/xdg-desktop-portal" ];
   # Portal configuration
   xdg.portal = {
     enable = true;
@@ -71,15 +70,7 @@
     config = {
       common = {
         default = [ "gtk" ];
-        "org.freedesktop.impl.portal.FileChooser" = [ "gtk" ];
-        "org.freedesktop.impl.portal.Settings" = [ "gtk" ];
       };
-      hyprland = {
-        default = [ "hyprland" "gtk" ];
-        "org.freedesktop.impl.portal.Settings" = [ "gtk" ];
-        "org.freedesktop.impl.portal.FileChooser" = [ "gtk" ];
-      };
-    };
   };
 
   # Packages to be installed
