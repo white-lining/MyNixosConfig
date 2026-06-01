@@ -1,0 +1,26 @@
+{ pkgs, config, lib, ... }:
+{
+  nix = {
+    settings = {
+      experimental-features = [ "nix-command" "flakes" ];
+    };
+
+    optimise.automatic = true;
+    auto-optimise-store = true;
+
+    environment.variables = {
+      NIXOS_OZONE_WL = "1";
+      XDG_CACHE_HOME = "$HOME/.cache";
+      XDG_CONFIG_HOME = "$HOME/.config";
+      XDG_DATA_HOME = "$HOME/.local/share";
+      XDG_BIN_HOME = "$HOME/.local/bin";
+    };
+  };
+
+  nixpkgs.config.allowUnfree = true;
+
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+  };
+}
